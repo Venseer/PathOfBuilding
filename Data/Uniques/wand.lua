@@ -186,24 +186,30 @@ Socketed Gems are Supported by level 1 Controlled Destruction
 ]],[[
 Shade of Solaris
 Sage Wand
+Variant: Pre 3.5.0
+Variant: Current
 Requires Level 30, 119 Int
 (17-21)% increased Spell Damage
 Gain (10-20)% of Elemental Damage as Extra Chaos Damage
 Critical Strikes deal no Damage
-120% increased Spell Damage if you've dealt a Critical Strike Recently
+{variant:1}120% increased Spell Damage if you've dealt a Critical Strike Recently
+{variant:2}200% increased Spell Damage if you've dealt a Critical Strike in the past 8 seconds
 ]],[[
 Shimmeron
 Tornado Wand
 Source: Drops from unique{The Elder} (Tier 6+)
+Variant: Pre 3.4.0
+Variant: Current
 Requires Level 65
 (35–39)% increased Spell Damage 
-(20–45)% increased Spell Damage 
+(30–40)% increased Spell Damage 
 Adds (26–35) to (95–105) Lightning Damage to Spells 
 +(6–10)% to Critical Strike Multiplier per Power Charge 
 +0.3% Critical Strike Chance per Power Charge 
 2% additional Chance to Block Spells per Power Charge 
 Adds 3 to 9 Lightning Damage to Spells per Power Charge 
-400 Lightning Damage taken per second per Power Charge if you've dealt a Critical Strike Recently
+{variant:1}400 Lightning Damage taken per second per Power Charge if you've dealt a Critical Strike Recently
+{variant:2}200 Lightning Damage taken per second per Power Charge if your Skills have dealt a Critical Strike Recently
 Elder Item
 ]],[[
 Storm Prison

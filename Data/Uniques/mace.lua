@@ -164,6 +164,8 @@ Socketed Lightning Spells deal 100% increased Spell Damage if Triggered
 Nebuloch
 Nightmare Mace
 Source: Drops from unique{The Elder} (Tier 6+)
+Variant: Pre 3.4.0
+Variant: Current
 Requires Level 68
 10% reduced Enemy Stun Threshold
 Adds (45–60) to (100–120) Physical Damage 
@@ -172,7 +174,8 @@ Gain (30–40)% of Physical Attack Damage as Extra Fire Damage
 1% reduced Elemental Damage taken when Hit per Endurance Charge 
 Adds 5 to 8 Physical Damage per Endurance Charge 
 +500 to Armour per Endurance Charge 
-400 Fire Damage taken per second per Endurance Charge if you've been Hit Recently
+{variant:1}400 Fire Damage taken per second per Endurance Charge if you've been Hit Recently
+{variant:2}200 Fire Damage taken per second per Endurance Charge if you've been Hit Recently
 Elder Item
 ]],
 -- Weapon: Sceptre
@@ -180,6 +183,8 @@ Elder Item
 Augyre
 Void Sceptre
 Source: Drops from unique{The Purifier} (Tier 11+)
+Variant: Pre 3.5.0
+Variant: Current
 Requires Level 68
 40% increased Elemental Damage 
 (180–200)% increased Physical Damage 
@@ -188,6 +193,7 @@ Requires Level 68
 50% of Physical Damage Converted to Lightning Damage 
 Every 16 seconds you gain Elemental Overload for 8 seconds 
 You have Resolute Technique while you do not have Elemental Overload
+{variant:2}100% increased Physical Damage while you have Resolute Technique
 Elder Item
 ]],[[
 Axiom Perpetuum
@@ -262,6 +268,19 @@ Adds (8-13) to (26-31) Physical Damage
 (15-20)% increased Attack Speed
 (30-40)% increased Critical Strike Chance
 ]],[[
+Cerberus Limb
+Blood Sceptre
+League: Delve
+Source: Drops from unique{Ahuatotli, the Blind}
+Requires Level 47
+24% increased Elemental Damage
+(70–100)% increased Spell Damage
+(15–20)% increased Cast Speed
+0.5% of Spell Damage Leeched as Life if Equipped Shield has at least 30% Chance to Block
++1 to Maximum Energy Shield per 5 Armour on Equipped Shield
++5 to Armour per 5 Evasion Rating on Equipped Shield
++20 to Evasion Rating per 5 Maximum Energy Shield on Equipped Shield
+]],[[
 The Dark Seer
 Shadow Sceptre
 League: Beyond
@@ -328,6 +347,16 @@ Adds (65-85) to (100-160) Physical Damage
 0.2% of Elemental Damage Leeched as Life
 (80-100)% increased Elemental Damage
 ]],[[
+Earendel's Embrace
+Grinning Fetish
+Requires Level 35
+18% increased Elemental Damage
++(20–30) to all Attributes
+Minions deal (30–40)% increased Damage
+Summoned Skeletons Cover Enemies in Ash on Hit
+Summoned Skeletons take (15–30)% of their Maximum Life per second as Fire Damage
+Summoned Skeletons have Avatar of Fire
+]],[[
 Mon'tregul's Grasp
 Void Sceptre
 Variant: Pre 1.2.0
@@ -389,15 +418,17 @@ Iron Sceptre
 Source: Drops in The Lord's Labyrinth
 Variant: Pre 2.3.0
 Variant: {2_6}Pre 3.0.0
+Variant: Pre 3.5.0
 Variant: Current
 Requires Level 20, 38 Str, 38 Int
 Implicits: 2
 {variant:1}10% increased Elemental Damage
-{variant:2,3}14% increased Elemental Damage
+{variant:2,3,4}14% increased Elemental Damage
 (100-140)% increased Physical Damage
 {variant:1,2}40% increased Damage against Frozen Enemies
-{variant:3}40% increased Damage with Hits against Frozen Enemies
+{variant:3,4}40% increased Damage with Hits against Frozen Enemies
 (30-50)% increased Cold Damage
+{variant:4}+(25-35)% to Cold Damage over Time Multiplier
 (5-10)% increased Attack Speed
 (4-8)% increased Cast Speed
 5% chance to Freeze
@@ -440,6 +471,7 @@ Damage Penetrates 20% Lightning Resistance
 ]],[[
 Chober Chaber
 Great Mallet
+Upgrade: Upgrades to unique{Chaber Cairn} via prophecy{Faith Exhumed}
 Variant: Pre 2.6.0
 Variant: {2_6}Pre 3.0.0
 Variant: Current
@@ -455,6 +487,19 @@ Implicits: 2
 Minions have (20-40)% increased maximum Life
 15% increased Skill Effect Duration
 20% reduced Strength Requirement
+]],[[
+Chaber Cairn
+Great Mallet
+Source: Upgraded from unique{Chober Chaber} via prophecy{Faith Exhumed}
+Requires Level 60
+30% increased Stun Duration on Enemies
++1 to Level of Socketed Melee Gems
++2 to Level of Socketed Minion Gems
+(200–220)% increased Physical Damage
+Adds (25–35) to (45–55) Physical Damage
+25% increased maximum Mana
+Minions have (20–40)% increased maximum Life
+30% increased Skill Effect Duration
 ]],[[
 Geofri's Baptism
 Brass Maul
@@ -482,9 +527,24 @@ Adds 11 to 23 Cold Damage
 (10–20)% increased Stun Duration on Enemies
 Never deal Critical Strikes
 ]],[[
+Hrimnor's Hymn
+Sledgehammer
+Upgrade: Upgrades to unique{Hrimnor's Dirge} via prophecy{Winter's Mournful Melodies}
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 17, 62 Str
+Implicits: 2
+{variant:1}40% increased Stun Duration on Enemies
+{variant:2}45% increased Stun Duration on Enemies
+(140-200)% increased Physical Damage
++10 to Strength
+15% reduced Enemy Stun Threshold
+1% of Physical Attack Damage Leeched as Life
+(40-50)% increased Stun Duration on Enemies
+]],[[
 Hrimnor's Dirge
 Sledgehammer
-Upgrade: Upgrades to unique{Hrimnor's Hymn} via prophecy{Winter's Mournful Melodies}
+Source: Upgraded from unique{Hrimnor's Hymn} using prophecy{Winter's Mournful Melodies}
 Variant: Pre 2.6.0
 Variant: Current
 Requires Level 36, 62 Str
@@ -498,21 +558,6 @@ Adds (10-20) to (30-40) Physical Damage
 1% of Physical Attack Damage Leeched as Life
 (40-50)% increased Stun Duration on Enemies
 Gain 50% of Physical Damage as Extra Cold Damage
-]],[[
-Hrimnor's Hymn
-Sledgehammer
-Source: Upgraded from unique{Hrimnor's Dirge} using prophecy{Winter's Mournful Melodies}
-Variant: Pre 2.6.0
-Variant: Current
-Requires Level 17, 62 Str
-Implicits: 2
-{variant:1}40% increased Stun Duration on Enemies
-{variant:2}45% increased Stun Duration on Enemies
-(140-200)% increased Physical Damage
-+10 to Strength
-15% reduced Enemy Stun Threshold
-1% of Physical Attack Damage Leeched as Life
-(40-50)% increased Stun Duration on Enemies
 ]],[[
 Jorrhast's Blacksteel
 Steelhead
@@ -592,10 +637,13 @@ Recover 5% of Maximum Life on Kill
 ]],[[
 Tidebreaker
 Imperial Maul
+Variant: Pre 3.5.0
+Variant: Current
 Requires Level 65, 212 Str
 30% increased Stun Duration on Enemies
 Socketed Gems are Supported by Level 20 Endurance Charge on Melee Stun
-Adds (60–70) to (300–350) Physical Damage
+{variant:1}Adds (60–70) to (300–350) Physical Damage
+{variant:2}Adds (70-80) to (340-375) Physical Damage
 +40 to Intelligence
 10% increased Physical Damage per Endurance Charge
 (20–30)% reduced Enemy Stun Threshold with this Weapon

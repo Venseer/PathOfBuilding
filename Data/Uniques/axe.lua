@@ -61,7 +61,7 @@ Socketed Gems are supported by level 2 Chance to Flee
 ]],[[
 The Gryphon
 Jade Hatchet
-Source: Upgraded from unique{The Gryphon} via prophecy{The Apex Predator}
+Source: Upgraded from unique{The Screaming Eagle} via prophecy{The Apex Predator}
 Requires Level 32, 21 Str
 Socketed Gems are supported by level 2 Chance to Flee
 (170-190)% increased Physical Damage
@@ -214,9 +214,12 @@ Nearby Allies have 30% increased Item Rarity
 ]],[[
 Kitava's Feast
 Void Axe
+Variant: Pre 3.5.0
+Variant: Current
 Requires Level 68, 149 Str, 76 Dex
 Socketed Gems are supported by level 25 Melee Splash
-(250-300)% increased Physical Damage
+{variant:1}(250-300)% increased Physical Damage
+{variant:2}(265-330)% increased Physical Damage
 1% of Physical Attack Damage Leeched as Life
 1% of Physical Attack Damage Leeched as Mana
 Recover 5% of Maximum Life on Kill
@@ -262,6 +265,15 @@ Requires Level 33, 80 Str, 37 Dex
 Culling Strike
 Hits can't be Evaded
 ]],[[
+Sinvicta's Mettle
+Ezomyte Axe
+Requires Level 62
+(200–212)% increased Physical Damage
+(8–12)% increased Attack Speed
+Rampage
+2% increased Area of Effect per 25 Rampage Kills
+Gain a Frenzy Charge on every 50th Rampage Kill
+]],[[
 Uul-Netol's Kiss
 Labrys
 League: Breach
@@ -303,13 +315,15 @@ Wings of Entropy
 Sundering Axe
 Variant: Pre 1.3.0
 Variant: Pre 2.0.0
+Variant: {2_6}Pre 3.0.0
 Variant: Current
 Requires Level 60, 149 Str, 76 Dex
-25% of Block Chance applied to Spells
+{variant:1,2,3}25% of Block Chance applied to Spells
+{variant:4}+7% chance to Block Spell Damage
 {variant:1}10% additional Chance to Block while Dual Wielding
-{variant:2,3}8% additional Chance to Block while Dual Wielding
+{variant:2,3,4}8% additional Chance to Block while Dual Wielding
 {variant:1,2}(80-120)% increased Physical Damage
-{variant:3}(100-120)% increased Physical Damage
+{variant:3,4}(100-120)% increased Physical Damage
 Adds (55-65) to (100-120) Fire Damage in Main Hand
 Adds (55-65) to (100-120) Chaos Damage in Off Hand
 Counts as Dual Wielding

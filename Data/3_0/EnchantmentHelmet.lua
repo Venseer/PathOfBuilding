@@ -40,10 +40,10 @@ return {
 	},
 	["Anger"] = {
 		["MERCILESS"] = {
-			"10% reduced Anger Mana Reservation",
+			"Anger has 10% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"15% reduced Anger Mana Reservation",
+			"Anger has 15% reduced Mana Reservation",
 		},
 	},
 	["Animate Guardian"] = {
@@ -84,11 +84,11 @@ return {
 	["Arctic Armour"] = {
 		["MERCILESS"] = {
 			"24% increased Arctic Armour Buff Effect",
-			"20% reduced Arctic Armour Mana Reservation",
+			"Arctic Armour has 20% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
 			"36% increased Arctic Armour Buff Effect",
-			"30% reduced Arctic Armour Mana Reservation",
+			"Arctic Armour has 30% reduced Mana Reservation",
 		},
 	},
 	["Arctic Breath"] = {
@@ -101,6 +101,19 @@ return {
 			"40% increased Arctic Breath Damage",
 			"36% increased Arctic Breath Duration",
 			"12% increased Arctic Breath Area of Effect",
+			"Arctic Breath's Chilling Area has 38% increased Movement Speed",
+		},
+	},
+	["Armageddon Brand"] = {
+		["MERCILESS"] = {
+			"Armageddon Brand deals 25% increased Damage",
+			"Armageddon Brand has 8% increased Activation Frequency",
+			"Armageddon Brand Damage Penetrates 8% of Branded Enemy's Fire Resistance",
+		},
+		["ENDGAME"] = {
+			"Armageddon Brand deals 40% increased Damage",
+			"Armageddon Brand has 12% increased Activation Frequency",
+			"Armageddon Brand Damage Penetrates 12% of Branded Enemy's Fire Resistance",
 		},
 	},
 	["Assassin's Mark"] = {
@@ -122,6 +135,18 @@ return {
 			"40% increased Ball Lightning Damage",
 			"12% increased Ball Lightning Area of Effect",
 			"Ball Lightning fires an additional Projectile",
+		},
+	},
+	["Bane"] = {
+		["MERCILESS"] = {
+			"Bane deals 25% increased Damage",
+			"Bane has 10% increased Area of Effect",
+			"10% increased Effect of Curses applied by Bane",
+		},
+		["ENDGAME"] = {
+			"Bane deals 40% increased Damage",
+			"Bane has 15% increased Area of Effect",
+			"15% increased Effect of Curses applied by Bane",
 		},
 	},
 	["Barrage"] = {
@@ -245,11 +270,11 @@ return {
 	["Bone Offering"] = {
 		["MERCILESS"] = {
 			"30% increased Bone Offering Duration",
-			"Bone Offering grants an additional +6% Block Chance",
+			"Bone Offering grants an additional +6% Chance to Block Attack Damage",
 		},
 		["ENDGAME"] = {
 			"45% increased Bone Offering Duration",
-			"Bone Offering grants an additional +9% Block Chance",
+			"Bone Offering grants an additional +9% Chance to Block Attack Damage",
 		},
 	},
 	["Burning Arrow"] = {
@@ -269,11 +294,13 @@ return {
 			"25% increased Caustic Arrow Damage",
 			"20% increased Caustic Arrow Duration",
 			"8% increased Caustic Arrow Area of Effect",
+			"Caustic Arrow has 14% chance to inflict Withered on Hit for 2 seconds base Duration",
 		},
 		["ENDGAME"] = {
 			"40% increased Caustic Arrow Damage",
 			"30% increased Caustic Arrow Duration",
 			"12% increased Caustic Arrow Area of Effect",
+			"Caustic Arrow has 20% chance to inflict Withered on Hit for 2 seconds base Duration",
 		},
 	},
 	["Charged Dash"] = {
@@ -292,10 +319,10 @@ return {
 	},
 	["Clarity"] = {
 		["MERCILESS"] = {
-			"20% reduced Clarity Mana Reservation",
+			"Clarity has 20% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"30% reduced Clarity Mana Reservation",
+			"Clarity has 30% reduced Mana Reservation",
 		},
 	},
 	["Cleave"] = {
@@ -330,6 +357,18 @@ return {
 		["ENDGAME"] = {
 			"30% increased Conductivity Curse Effect",
 			"45% increased Conductivity Duration",
+		},
+	},
+	["Consecrated Path"] = {
+		["MERCILESS"] = {
+			"Consecrated Path deals 25% increased Damage",
+			"Consecrated Path has 10% increased teleport range",
+			"Consecrated Path has 8% increased Area of Effect",
+		},
+		["ENDGAME"] = {
+			"Consecrated Path deals 40% increased Damage",
+			"Consecrated Path has 15% increased teleport range",
+			"Consecrated Path has 12% increased Area of Effect",
 		},
 	},
 	["Contagion"] = {
@@ -390,13 +429,9 @@ return {
 			"25% increased Dark Pact Damage",
 			"8% increased Dark Pact Cast Speed",
 			"8% increased Dark Pact Area of Effect",
-			"8% increased Dark Pact Cast Speed",
-			"8% increased Dark Pact Area of Effect",
 		},
 		["ENDGAME"] = {
 			"40% increased Dark Pact Damage",
-			"12% increased Dark Pact Cast Speed",
-			"12% increased Dark Pact Area of Effect",
 			"12% increased Dark Pact Cast Speed",
 			"12% increased Dark Pact Area of Effect",
 		},
@@ -433,10 +468,10 @@ return {
 	},
 	["Determination"] = {
 		["MERCILESS"] = {
-			"10% reduced Determination Mana Reservation",
+			"Determination has 10% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"15% reduced Determination Mana Reservation",
+			"Determination has 15% reduced Mana Reservation",
 		},
 	},
 	["Detonate Dead"] = {
@@ -464,33 +499,44 @@ return {
 	["Discharge"] = {
 		["MERCILESS"] = {
 			"5% increased Discharge Radius",
-			"20% chance for Discharge not to consume Charges",
+			"20% chance for Discharge to deal Damage without removing Charges",
 			"25% increased Discharge Damage",
 		},
 		["ENDGAME"] = {
 			"8% increased Discharge Radius",
-			"30% chance for Discharge not to consume Charges",
+			"30% chance for Discharge to deal Damage without removing Charges",
 			"40% increased Discharge Damage",
 		},
 	},
 	["Discipline"] = {
 		["MERCILESS"] = {
-			"14% reduced Discipline Mana Reservation",
+			"Discipline has 14% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"20% reduced Discipline Mana Reservation",
+			"Discipline has 20% reduced Mana Reservation",
+		},
+	},
+	["Divine Ire"] = {
+		["MERCILESS"] = {
+			"Divine Ire deals 25% increased Damage",
+			"Divine Ire's beam has 10% increased width",
+			"Divine Ire Damages an additional nearby Enemy when gaining Stages",
+		},
+		["ENDGAME"] = {
+			"Divine Ire deals 40% increased Damage",
+			"Divine Ire's beam has 15% increased width",
+			"Divine Ire Damages 2 additional nearby Enemies when gaining Stages",
 		},
 	},
 	["Dominating Blow"] = {
 		["MERCILESS"] = {
-			"20% increased Dominating Blow Duration",
-			"Dominated Minions deal 20% increased Damage",
-			"24% increased Dominating Blow Damage",
+			"20% increased Sentinel of Dominance Duration",
+			"Dominating Blow can summon 2 additional Magic Sentinels of Dominance",
 		},
 		["ENDGAME"] = {
-			"30% increased Dominating Blow Duration",
-			"Dominated Minions deal 30% increased Damage",
-			"36% increased Dominating Blow Damage",
+			"30% increased Sentinel of Dominance Duration",
+			"Dominating Blow can summon 3 additional Magic Sentinels of Dominance",
+			"Dominating Blow can summon an additional Rare Sentinel of Dominance",
 		},
 	},
 	["Double Strike"] = {
@@ -505,6 +551,14 @@ return {
 			"15% increased Double Strike Attack Speed",
 			"90% increased Double Strike Critical Strike Chance",
 			"Double Strike has a 15% chance to deal Double Damage to Bleeding Enemies",
+		},
+	},
+	["Dread Banner"] = {
+		["MERCILESS"] = {
+			"Dread Banner has 25% increased Aura Effect",
+		},
+		["ENDGAME"] = {
+			"Dread Banner has 40% increased Aura Effect",
 		},
 	},
 	["Dual Strike"] = {
@@ -688,18 +742,6 @@ return {
 			"60% increased Flame Surge Damage against Burning Enemies",
 		},
 	},
-	["Flame Totem"] = {
-		["MERCILESS"] = {
-			"25% increased Flame Totem Damage",
-			"Flame Totem fires an additional Projectile",
-			"20% increased Flame Totem Projectile Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Flame Totem Damage",
-			"Flame Totem fires 2 additional Projectiles",
-			"30% increased Flame Totem Projectile Speed",
-		},
-	},
 	["Flameblast"] = {
 		["MERCILESS"] = {
 			"25% increased Flameblast Damage",
@@ -876,10 +918,10 @@ return {
 	},
 	["Grace"] = {
 		["MERCILESS"] = {
-			"10% reduced Grace Mana Reservation",
+			"Grace has 10% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"15% reduced Grace Mana Reservation",
+			"Grace has 15% reduced Mana Reservation",
 		},
 	},
 	["Ground Slam"] = {
@@ -896,18 +938,18 @@ return {
 	},
 	["Haste"] = {
 		["MERCILESS"] = {
-			"10% reduced Haste Mana Reservation",
+			"Haste has 10% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"15% reduced Haste Mana Reservation",
+			"Haste has 15% reduced Mana Reservation",
 		},
 	},
 	["Hatred"] = {
 		["MERCILESS"] = {
-			"10% reduced Hatred Mana Reservation",
+			"Hatred has 10% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"15% reduced Hatred Mana Reservation",
+			"Hatred has 15% reduced Mana Reservation",
 		},
 	},
 	["Heavy Strike"] = {
@@ -922,34 +964,66 @@ return {
 			"Heavy Strike has a 12% chance to deal Double Damage",
 		},
 	},
+	["Herald of Agony"] = {
+		["MERCILESS"] = {
+			"Herald of Agony has 20% reduced Mana Reservation",
+		},
+		["ENDGAME"] = {
+			"Herald of Agony has 30% reduced Mana Reservation",
+			"Summoned Agony Crawler fires 2 additional Projectiles",
+		},
+	},
 	["Herald of Ash"] = {
 		["MERCILESS"] = {
 			"25% increased Herald of Ash Damage",
-			"20% reduced Herald of Ash Mana Reservation",
+			"Herald of Ash has 20% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
 			"40% increased Herald of Ash Damage",
-			"30% reduced Herald of Ash Mana Reservation",
+			"Herald of Ash has 30% reduced Mana Reservation",
 		},
 	},
 	["Herald of Ice"] = {
 		["MERCILESS"] = {
 			"25% increased Herald of Ice Damage",
-			"20% reduced Herald of Ice Mana Reservation",
+			"Herald of Ice has 20% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
 			"40% increased Herald of Ice Damage",
-			"30% reduced Herald of Ice Mana Reservation",
+			"Herald of Ice has 30% reduced Mana Reservation",
+		},
+	},
+	["Herald of Purity"] = {
+		["MERCILESS"] = {
+			"Herald of Purity has 20% reduced Mana Reservation",
+		},
+		["ENDGAME"] = {
+			"Herald of Purity has 30% reduced Mana Reservation",
+			"+1 to maximum number of Sentinels of Purity",
 		},
 	},
 	["Herald of Thunder"] = {
 		["MERCILESS"] = {
 			"25% increased Herald of Thunder Damage",
-			"20% reduced Herald of Thunder Mana Reservation",
+			"Herald of Thunder has 20% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
 			"40% increased Herald of Thunder Damage",
-			"30% reduced Herald of Thunder Mana Reservation",
+			"Herald of Thunder has 30% reduced Mana Reservation",
+		},
+	},
+	["Holy Flame Totem"] = {
+		["MERCILESS"] = {
+			"25% increased Flame Totem Damage",
+			"Flame Totem fires an additional Projectile",
+			"20% increased Flame Totem Projectile Speed",
+			"Consecrated Ground created with Holy Flame Totem applies 6% increased Damage taken to Enemies",
+		},
+		["ENDGAME"] = {
+			"40% increased Flame Totem Damage",
+			"Flame Totem fires 2 additional Projectiles",
+			"30% increased Flame Totem Projectile Speed",
+			"Consecrated Ground created with Holy Flame Totem applies 9% increased Damage taken to Enemies",
 		},
 	},
 	["Ice Crash"] = {
@@ -969,11 +1043,13 @@ return {
 			"25% increased Ice Nova Damage",
 			"Ice Nova has +20% chance to Freeze",
 			"8% increased Ice Nova Area of Effect",
+			"Chills from Ice Nova Hits always reduce Action Speed by at least 6%",
 		},
 		["ENDGAME"] = {
 			"40% increased Ice Nova Damage",
 			"Ice Nova has +30% chance to Freeze",
 			"12% increased Ice Nova Area of Effect",
+			"Chills from Ice Nova Hits always reduce Action Speed by at least 8%",
 		},
 	},
 	["Ice Shot"] = {
@@ -990,14 +1066,15 @@ return {
 	},
 	["Ice Spear"] = {
 		["MERCILESS"] = {
-			"25% increased Ice Spear Damage",
 			"10% Chance to gain a Power Charge on Critical Strike with Ice Spear",
 			"200% increased Ice Spear Critical Strike Chance in second form",
+			"Ice Spear travels 20% reduced distance before changing forms",
 		},
 		["ENDGAME"] = {
-			"40% increased Ice Spear Damage",
 			"15% Chance to gain a Power Charge on Critical Strike with Ice Spear",
 			"300% increased Ice Spear Critical Strike Chance in second form",
+			"Ice Spear fires an additional Projectile",
+			"Ice Spear travels 30% reduced distance before changing forms",
 		},
 	},
 	["Ice Trap"] = {
@@ -1014,11 +1091,11 @@ return {
 	},
 	["Immortal Call"] = {
 		["MERCILESS"] = {
-			"20% chance for Immortal Call to not consume Endurance Charges",
+			"20% chance for Immortal Call to increase Duration without removing Endurance Charges",
 			"34% increased Immortal Call Duration",
 		},
 		["ENDGAME"] = {
-			"30% chance for Immortal Call to not consume Endurance Charges",
+			"30% chance for Immortal Call to increase Duration without removing Endurance Charges",
 			"36% increased Immortal Call Duration",
 		},
 	},
@@ -1026,12 +1103,12 @@ return {
 		["MERCILESS"] = {
 			"25% increased Incinerate Damage",
 			"Incinerate has 8% increased Area of Effect",
-			"Incinerate has +2 to maximum stages",
+			"Incinerate has +1 to maximum stages",
 		},
 		["ENDGAME"] = {
 			"40% increased Incinerate Damage",
 			"Incinerate has 12% increased Area of Effect",
-			"Incinerate has +4 to maximum stages",
+			"Incinerate has +2 to maximum stages",
 			"10% increased Incinerate Damage for each stage",
 		},
 	},
@@ -1073,6 +1150,18 @@ return {
 			"60% increased Lacerate Critical Strike Chance",
 			"12% increased Lacerate Area of Effect",
 			"Lacerate deals (14-18) to (20-25) added Physical Damage against Bleeding Enemies",
+		},
+	},
+	["Lancing Steel"] = {
+		["MERCILESS"] = {
+			"Lancing Steel deals 25% increased Damage",
+			"Lancing Steel's primary Projectile Pierces 3 additional Targets",
+			"Lancing Steel's additional Projectiles have +20% chance to Impale Enemies",
+		},
+		["ENDGAME"] = {
+			"Lancing Steel deals 40% increased Damage",
+			"Lancing Steel's primary Projectile Pierces 5 additional Targets",
+			"Lancing Steel's additional Projectiles have +30% chance to Impale Enemies",
 		},
 	},
 	["Leap Slam"] = {
@@ -1176,6 +1265,14 @@ return {
 			"12% increased Magma Orb Area of Effect",
 		},
 	},
+	["Malevolence"] = {
+		["MERCILESS"] = {
+			"Malevolence has 10% reduced Mana Reservation",
+		},
+		["ENDGAME"] = {
+			"Malevolence has 15% reduced Mana Reservation",
+		},
+	},
 	["Mirror Arrow"] = {
 		["MERCILESS"] = {
 			"Mirror Arrow and Mirror Arrow Clones deal 25% increased Damage",
@@ -1201,12 +1298,12 @@ return {
 	["Molten Strike"] = {
 		["MERCILESS"] = {
 			"25% increased Molten Strike Damage",
-			"Molten Strike fires 2 additional Projectiles",
+			"Molten Strike fires an additional Projectile",
 			"8% increased Molten Strike Area of Effect",
 		},
 		["ENDGAME"] = {
 			"40% increased Molten Strike Damage",
-			"Molten Strike fires 3 additional Projectiles",
+			"Molten Strike fires 2 additional Projectiles",
 			"12% increased Molten Strike Area of Effect",
 		},
 	},
@@ -1226,11 +1323,11 @@ return {
 	},
 	["Phase Run"] = {
 		["MERCILESS"] = {
-			"20% chance for Phase Run to not consume Frenzy Charges",
+			"20% chance for Phase Run to increase Duration without removing Frenzy Charges",
 			"24% increased Phase Run Duration",
 		},
 		["ENDGAME"] = {
-			"30% chance for Phase Run to not consume Frenzy Charges",
+			"30% chance for Phase Run to increase Duration without removing Frenzy Charges",
 			"36% increased Phase Run Duration",
 		},
 	},
@@ -1290,36 +1387,48 @@ return {
 			"45% increased Punishment Duration",
 		},
 	},
-	["Purity of Elements"] = {
+	["Purifying Flame"] = {
 		["MERCILESS"] = {
-			"14% reduced Purity of Elements Mana Reservation",
+			"Purifying Flame deals 25% increased Damage",
+			"Purifying Flame has 20% increased Area of Effect if targeting Consecrated Ground",
+			"Consecrated Ground created with Sanctify applies 6% increased Damage taken to Enemies",
 		},
 		["ENDGAME"] = {
-			"20% reduced Purity of Elements Mana Reservation",
+			"Purifying Flame deals 40% increased Damage",
+			"Purifying Flame has 30% increased Area of Effect if targeting Consecrated Ground",
+			"Consecrated Ground created with Sanctify applies 9% increased Damage taken to Enemies",
+		},
+	},
+	["Purity of Elements"] = {
+		["MERCILESS"] = {
+			"Purity of Elements has 14% reduced Mana Reservation",
+		},
+		["ENDGAME"] = {
+			"Purity of Elements has 20% reduced Mana Reservation",
 		},
 	},
 	["Purity of Fire"] = {
 		["MERCILESS"] = {
-			"14% reduced Purity of Fire Mana Reservation",
+			"Purity of Fire has 14% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"20% reduced Purity of Fire Mana Reservation",
+			"Purity of Fire has 20% reduced Mana Reservation",
 		},
 	},
 	["Purity of Ice"] = {
 		["MERCILESS"] = {
-			"14% reduced Purity of Ice Mana Reservation",
+			"Purity of Ice has 14% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"20% reduced Purity of Ice Mana Reservation",
+			"Purity of Ice has 20% reduced Mana Reservation",
 		},
 	},
 	["Purity of Lightning"] = {
 		["MERCILESS"] = {
-			"14% reduced Purity of Lightning Mana Reservation",
+			"Purity of Lightning has 14% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"20% reduced Purity of Lightning Mana Reservation",
+			"Purity of Lightning has 20% reduced Mana Reservation",
 		},
 	},
 	["Rain of Arrows"] = {
@@ -1434,6 +1543,17 @@ return {
 			"15% increased Scorching Ray beam length",
 		},
 	},
+	["Scourge Arrow"] = {
+		["MERCILESS"] = {
+			"Scourge Arrow deals 25% increased Damage",
+			"Scourge Arrow has 6% chance to Poison per Stage",
+		},
+		["ENDGAME"] = {
+			"Scourge Arrow deals 40% increased Damage",
+			"Scourge Arrow has 8% chance to Poison per Stage",
+			"Scourge Arrow creates an additional spore pod at Maximum Stages",
+		},
+	},
 	["Searing Bond"] = {
 		["MERCILESS"] = {
 			"25% increased Searing Bond Damage",
@@ -1457,6 +1577,16 @@ return {
 			"Seismic Trap has 30% increased Skill Effect Duration",
 			"Seismic Trap has 15% increased Cooldown Recovery Speed",
 			"Seismic Trap releases an additional Wave",
+		},
+	},
+	["Shattering Steel"] = {
+		["MERCILESS"] = {
+			"Shattering Steel deals 25% increased Damage",
+		},
+		["ENDGAME"] = {
+			"Shattering Steel deals 40% increased Damage",
+			"Shattering Steel fires an additional Projectile",
+			"Shattering Steel grants Fortify on Hitting an Enemy at Close Range",
 		},
 	},
 	["Shield Charge"] = {
@@ -1530,6 +1660,18 @@ return {
 			"Siphoning Trap has 40% increased Chill Effect",
 		},
 	},
+	["Smite"] = {
+		["MERCILESS"] = {
+			"Smite deals 25% increased Damage",
+			"Smite has a 10% chance for lightning to strike another target",
+			"Smite has 20% increased Aura Effect",
+		},
+		["ENDGAME"] = {
+			"Smite deals 40% increased Damage",
+			"Smite has a 15% chance for lightning to strike another target",
+			"Smite has 30% increased Aura Effect",
+		},
+	},
 	["Smoke Mine"] = {
 		["MERCILESS"] = {
 			"20% increased Smoke Mine Duration",
@@ -1538,6 +1680,17 @@ return {
 		["ENDGAME"] = {
 			"30% increased Smoke Mine Duration",
 			"Smoke Mine grants additional 30% increased Movement Speed",
+		},
+	},
+	["Soulrend"] = {
+		["MERCILESS"] = {
+			"Soulrend deals 25% increased Damage",
+			"Soulrend also Hinders Enemies, with 25% reduced Movement Speed",
+		},
+		["ENDGAME"] = {
+			"Soulrend deals 40% increased Damage",
+			"Soulrend also Hinders Enemies, with 40% reduced Movement Speed",
+			"Soulrend fires an additional Projectile",
 		},
 	},
 	["Spark"] = {
@@ -1601,24 +1754,39 @@ return {
 	["Static Strike"] = {
 		["MERCILESS"] = {
 			"25% increased Static Strike Damage",
-			"30% reduced Static Strike Duration",
+			"30% increased Static Strike Duration",
 			"8% increased Static Strike Area of Effect",
+			"Static Strike has +1 maximum Beam Targets",
 		},
 		["ENDGAME"] = {
 			"40% increased Static Strike Damage",
-			"45% reduced Static Strike Duration",
+			"45% increased Static Strike Duration",
 			"12% increased Static Strike Area of Effect",
+			"Static Strike has +2 maximum Beam Targets",
+		},
+	},
+	["Storm Brand"] = {
+		["MERCILESS"] = {
+			"Storm Brand deals 25% increased Damage",
+			"Storm Brand has a 12% chance to Chain an additional time",
+			"Storm Brand Damage Penetrates 8% of Branded Enemy's Lightning Resistance",
+		},
+		["ENDGAME"] = {
+			"Storm Brand deals 40% increased Damage",
+			"Storm Brand has a 18% chance to Chain an additional time",
+			"Storm Brand Damage Penetrates 12% of Branded Enemy's Lightning Resistance",
 		},
 	},
 	["Storm Burst"] = {
 		["MERCILESS"] = {
 			"25% increased Storm Burst Damage",
 			"8% increased Storm Burst Area of Effect",
+			"Storm Burst has a 10% chance to create an additional Orb",
 		},
 		["ENDGAME"] = {
 			"40% increased Storm Burst Damage",
 			"12% increased Storm Burst Area of Effect",
-			"Storm Burst fires an additional Projectile",
+			"Storm Burst has a 15% chance to create an additional Orb",
 		},
 	},
 	["Storm Call"] = {
@@ -1655,6 +1823,18 @@ return {
 			"Flame Golems have 40% increased Damage",
 			"+36% to increased Flame Golem Elemental Resistances",
 			"150% increased Effect of the Buff granted by your Flame Golems",
+		},
+	},
+	["Summon Holy Relic"] = {
+		["MERCILESS"] = {
+			"Summoned Holy Relics deal 25% increased Damage",
+			"Summoned Holy Relics have 15% increased Area of Effect",
+			"Summoned Holy Relics have 75% increased Buff Effect",
+		},
+		["ENDGAME"] = {
+			"Summoned Holy Relics deal 40% increased Damage",
+			"Summoned Holy Relics have 20% increased Area of Effect",
+			"Summoned Holy Relics have 100% increased Buff Effect",
 		},
 	},
 	["Summon Ice Golem"] = {
@@ -1743,12 +1923,12 @@ return {
 		["MERCILESS"] = {
 			"25% increased Tectonic Slam Damage",
 			"8% increased Tectonic Slam Area of Effect",
-			"25% chance for Tectonic Slam to not consume an Endurance Charge",
+			"Tectonic Slam has 12% chance to create a Charged Slam",
 		},
 		["ENDGAME"] = {
 			"40% increased Tectonic Slam Damage",
 			"12% increased Tectonic Slam Area of Effect",
-			"40% chance for Tectonic Slam to not consume an Endurance Charge",
+			"Tectonic Slam has 20% chance to create a Charged Slam",
 		},
 	},
 	["Tempest Shield"] = {
@@ -1781,6 +1961,17 @@ return {
 			"40% increased Tornado Shot Damage",
 			"90% increased Tornado Shot Critical Strike Chance",
 			"Tornado Shot fires 2 additional secondary Projectiles",
+		},
+	},
+	["Toxic Rain"] = {
+		["MERCILESS"] = {
+			"Toxic Rain deals 25% increased Damage",
+			"Toxic Rain gains 6% of Physical Damage as Extra Chaos Damage",
+		},
+		["ENDGAME"] = {
+			"Toxic Rain deals 40% increased Damage",
+			"Toxic Rain gains 10% of Physical Damage as Extra Chaos Damage",
+			"Toxic Rain fires 1 additional Arrow",
 		},
 	},
 	["Unearth"] = {
@@ -1829,10 +2020,10 @@ return {
 	},
 	["Vitality"] = {
 		["MERCILESS"] = {
-			"14% reduced Vitality Mana Reservation",
+			"Vitality has 14% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"20% reduced Vitality Mana Reservation",
+			"Vitality has 20% reduced Mana Reservation",
 		},
 	},
 	["Volatile Dead"] = {
@@ -1849,15 +2040,15 @@ return {
 	["Vortex"] = {
 		["MERCILESS"] = {
 			"25% increased Vortex Damage",
-			"8% increased Vortex Area of Effect",
 			"20% increased Vortex Duration",
 			"Vortex has 30% increased Area of Effect when Cast on Frostbolt",
+			"Vortex has 20% increased Cooldown Recovery Speed",
 		},
 		["ENDGAME"] = {
 			"40% increased Vortex Damage",
-			"12% increased Vortex Area of Effect",
 			"30% increased Vortex Duration",
 			"Vortex has 45% increased Area of Effect when Cast on Frostbolt",
+			"Vortex has 30% increased Cooldown Recovery Speed",
 		},
 	},
 	["Vulnerability"] = {
@@ -1870,6 +2061,14 @@ return {
 			"45% increased Vulnerability Duration",
 		},
 	},
+	["War Banner"] = {
+		["MERCILESS"] = {
+			"War Banner has 25% increased Aura Effect",
+		},
+		["ENDGAME"] = {
+			"War Banner has 40% increased Aura Effect",
+		},
+	},
 	["Warlord's Mark"] = {
 		["MERCILESS"] = {
 			"20% increased Warlord's Mark Curse Effect",
@@ -1878,6 +2077,18 @@ return {
 		["ENDGAME"] = {
 			"30% increased Warlord's Mark Curse Effect",
 			"45% increased Warlord's Mark Duration",
+		},
+	},
+	["Wave of Conviction"] = {
+		["MERCILESS"] = {
+			"Wave of Conviction deals 25% increased Damage",
+			"Wave of Conviction's Exposure applies -4% Elemental Resistance",
+			"Wave of Conviction has 20% increased Duration",
+		},
+		["ENDGAME"] = {
+			"Wave of Conviction deals 40% increased Damage",
+			"Wave of Conviction's Exposure applies -6% Elemental Resistance",
+			"Wave of Conviction has 30% increased Duration",
 		},
 	},
 	["Whirling Blades"] = {
@@ -1902,22 +2113,41 @@ return {
 			"36% increased Wild Strike Area of Effect",
 		},
 	},
-	["Wither"] = {
+	["Winter Orb"] = {
 		["MERCILESS"] = {
-			"24% increased Wither Duration",
-			"8% increased Wither Area of Effect",
+			"Winter Orb deals 25% increased Damage",
+			"Winter Orb has 2% increased Area of Effect per Stage",
 		},
 		["ENDGAME"] = {
-			"36% increased Wither Duration",
-			"12% increased Wither Area of Effect",
+			"Winter Orb deals 40% increased Damage",
+			"Winter Orb has +2 Maximum Stages",
+			"Winter Orb has 3% increased Area of Effect per Stage",
+		},
+	},
+	["Wither"] = {
+		["MERCILESS"] = {
+			"Wither 24% increased Duration",
+			"Wither has 8% increased Area of Effect",
+		},
+		["ENDGAME"] = {
+			"Wither 36% increased Duration",
+			"Wither has 12% increased Area of Effect",
 		},
 	},
 	["Wrath"] = {
 		["MERCILESS"] = {
-			"10% reduced Wrath Mana Reservation",
+			"Wrath has 10% reduced Mana Reservation",
 		},
 		["ENDGAME"] = {
-			"15% reduced Wrath Mana Reservation",
+			"Wrath has 15% reduced Mana Reservation",
+		},
+	},
+	["Zealotry"] = {
+		["MERCILESS"] = {
+			"Zealotry has 10% reduced Mana Reservation",
+		},
+		["ENDGAME"] = {
+			"Zealotry has 15% reduced Mana Reservation",
 		},
 	},
 }
